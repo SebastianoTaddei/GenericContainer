@@ -55,7 +55,6 @@ jobs:
         run: |
           mkdir -p release/GenericContainer
           cp -r lib release/GenericContainer/
-          cp -r lib3rd release/GenericContainer/
 
       - name: Zip binaries
         uses: vimtor/action-zip@v1.2
